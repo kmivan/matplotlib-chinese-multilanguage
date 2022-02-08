@@ -1,0 +1,22 @@
+# FORMAT
+
+# fontmap:
+#     <locale name (value of getdefaultlocale()[0])>:
+#         font-names:
+#             - <item>
+#             - <item>
+#             - ...
+#         font-filenames:
+#             - <item>
+#             - <item>
+#             - ...
+
+fontmap:
+    zh_CN:
+        font-names: 
+            - SimSun
+            - SimHei
+        font-filenames:
+            - simsun.ttf
+            - simhei.ttf
+
